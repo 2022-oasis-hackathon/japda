@@ -53,6 +53,14 @@ h1 a{
     display : block;
 }
 
+.titlewrapper{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .wrapper{
     display:flex;
     justify-content: space-between;
@@ -76,38 +84,21 @@ h1 a{
 /*main*/
 .main h3{
     font-family: 'Baloo';
-
-    text-align : center;
-    align-items : center;
-
-    position: absolute;
-    width: 766px;
-    height: 121px;
-    left: 380px;
-    top: 50px;
-
+    margin-bottom: auto;
     font-weight: 400;
     font-size: 100px;
-    line-height: 175px;
 
     color: rgba(108, 60, 244, 0.85);
 }
 .main p{
     font-family: 'Baloo';
+    display:flex;
+    justify-content: center;
 
-    position : absolute;
-    width : 790px;
-    height : 160px;
-    left : 580px;
-    top : 200px;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
     color : rgba(108, 60, 244, 0.85);
-    font-style : normal;
-    font-weight : 400;
-    font-size : 30px;
-    line-height : 60px;
-    display : flex;
-    align-items : center;
 }
 
 /*link*/
