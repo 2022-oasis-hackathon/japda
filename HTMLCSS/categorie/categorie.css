@@ -3,12 +3,16 @@
   src: url('BalooBhai.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'gooodic';
+  src: url('GothicA1-Regular.ttf') format('truetype');
+}
+
+
 h1 a{
   font-family: 'Baloo';
   color : white;
 }
-
-
 
 body {
     padding: 0;
@@ -145,11 +149,12 @@ body {
           outline: none; }
         .nav-global .navbar-nav .nav-item a i, .nav-global .navbar-nav .nav-item button i {
           font-size: 20px; }
-  
+
   .nav-global-sign {
     box-shadow: none; }
-  
+
   .container-headline {
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 32px;
     text-align: center;
     margin: 0; }
