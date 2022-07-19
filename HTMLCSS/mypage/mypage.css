@@ -58,6 +58,7 @@ h1 a{
 .info .date{
     margin-top: 5px;
     text-align: center;
+    font-family : 'Baloo';
     font-weight: 600px;
     font-size: 40px;
 }
