@@ -64,6 +64,7 @@ h1 a{
 
 .page_wrap{
     width: 70%;
+    font-family: 'Baloo';
     margin : 10px auto;
     display: flex;
     justify-content: center;
@@ -131,8 +132,11 @@ h1 a{
 
 .page_wrap .health_wrap{
     background-color: rgba(108, 60, 244, 0.1);
+    font-family: 'Baloo';
+    border-radius: 5%;
     width: 480px;
-    height: 200px;
+    height: 260px;
+    
 }
 
 .page_wrap .title{
@@ -166,7 +170,8 @@ h1 a{
 .page_wrap .challenge_wrap{
     background-color: rgba(108, 60, 244, 0.1);
     width: 480px;
-    height: 200px;
+    height: 260px;
+    border-radius: 5%;
 }
 
 .page_wrap .challenge_wrap a{
@@ -191,8 +196,9 @@ h1 a{
 .page_wrap .commu_wrap{
     background-color: rgba(108, 60, 244, 0.1);
     width: 480px;
-    height: 200px;
+    height: 260px;
     font-size: 0;
+    border-radius: 5%;
 }
 
 .page_wrap .commu_wrap dl{
@@ -221,7 +227,8 @@ h1 a{
 .page_wrap .market_wrap{
     background-color: rgba(108, 60, 244, 0.1);
     width: 480px;
-    height: 200px;
+    height: 260px;
+    border-radius: 5%;
 }
 
 .page_wrap .market_wrap .info{
@@ -275,21 +282,20 @@ h1 a{
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
-  
 :root {
     --surface-color: #fff;
     --curve: 40;
   }
-  
+
   * {
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #fef8f8;
   }
-  
+
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -298,7 +304,7 @@ h1 a{
     padding: 0;
     list-style-type: none;
   }
-  
+
   .card {
     position: relative;
     display: block;
@@ -307,12 +313,12 @@ h1 a{
     overflow: hidden;
     text-decoration: none;
   }
-  
+
   .card__image {      
     width: 100%;
     height: auto;
   }
-  
+
   .card__overlay {
     position: absolute;
     bottom: 0;
@@ -324,11 +330,11 @@ h1 a{
     transform: translateY(100%);
     transition: .2s ease-in-out;
   }
-  
+
   .card:hover .card__overlay {
     transform: translateY(0);
   }
-  
+
   .card__header {
     position: relative;
     display: flex;
@@ -340,7 +346,7 @@ h1 a{
     transform: translateY(-100%);
     transition: .2s ease-in-out;
   }
-  
+
   .card__arc {
     width: 80px;
     height: 80px;
@@ -349,29 +355,29 @@ h1 a{
     right: 0;      
     z-index: 1;
   }
-  
+
   .card__arc path {
     fill: var(--surface-color);
     d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
   }       
-  
+
   .card:hover .card__header {
     transform: translateY(0);
   }
-  
+
   .card__thumb {
     flex-shrink: 0;
     width: 50px;
     height: 50px;      
     border-radius: 50%;      
   }
-  
+
   .card__title {
     font-size: 1em;
     margin: 0 0 .3em;
     color: #6A515E;
   }
-  
+
   .card__tagline {
     display: block;
     margin: 1em 0;
@@ -379,12 +385,12 @@ h1 a{
     font-size: .8em; 
     color: #D7BDCA;  
   }
-  
+
   .card__status {
     font-size: .8em;
     color: #D7BDCA;
   }
-  
+
   .card__description {
     padding: 0 2em 2em;
     margin: 0;
@@ -394,4 +400,7 @@ h1 a{
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-  }    
+  }     
+
+
+
