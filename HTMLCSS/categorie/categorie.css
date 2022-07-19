@@ -27,13 +27,13 @@ body {
     -webkit-font-smoothing: antialiased; }
   
   .btn-primary {
-    background-color: #ff8a3d;
-    border-color: #ff8a3d; }
+    background-color: #7443ff;
+    border-color: #7443ff; }
     .btn-primary:hover, .btn-primary:active {
-      background-color: #DF732D !important;
-      border-color: #DF732D !important; }
+      background-color: #7443ff !important;
+      border-color: #7443ff !important; }
     .btn-primary:focus, .btn-primary:active {
-      box-shadow: 0 0 0 0.2rem #FFC13D !important; }
+      box-shadow: 0 0 0 0.2rem #7443ff !important; }
   
   .btn-light {
     color: #ff8a3d;
@@ -216,7 +216,7 @@ body {
       .list-products .card time {
         float: right; }
       .list-products .card .price {
-        color: #ff8a3d;
+        color: #7443ff;
         font-weight: 700; }
       .list-products .card .text-muted {
         font-size: 14px;
@@ -303,16 +303,16 @@ body {
     .modal-filter .slider .slider-track-low, .modal-filter .slider .slider-track-high {
       background-color: #E9ECF3; }
     .modal-filter .slider .slider-handle {
-      background-color: #ff8a3d;
+      background-color: #7443ff;
       cursor: pointer;
       background-image: none; }
       .modal-filter .slider .slider-handle:hover {
-        background-color: #DF732D;
-        box-shadow: 0 0 0 3px #DF732D; }
+        background-color: #7443ff;
+        box-shadow: 0 0 0 3px #7443ff; }
       .modal-filter .slider .slider-handle:focus {
         outline: none; }
     .modal-filter .slider .slider-selection {
-      background-color: #FFC13D;
+      background-color: #7443ff;
       box-shadow: none; }
   
   .file-box input[type="file"] {
