@@ -113,16 +113,21 @@ ul {
   display:flex;
 }
 
+a{
+  text-decoration: none;
+}
+
 .back{
-    background-color : rgba(108, 60, 244, 0.85);
-    width : 95px;
-    height : 50px;
+  background-color: #7543ff;
+  box-shadow:inset 0px 0px 15px -2px #9fb4f2;
+  width : 150px;
+  height : 50px;
     color : rgb(255, 255, 255);
-    font-family : 'Baloo';
+    font-family:Arial;
     font-size:34px;
     text-align:center;
     line-height: 50px;
-    border-radius : 25px;
+    border-radius : 15px;
     margin-top:-11%;
     margin-left:10%;
   }
