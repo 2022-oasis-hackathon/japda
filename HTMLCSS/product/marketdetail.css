@@ -99,7 +99,8 @@ body {
       max-width: 680px; } }
   
   .nav-global {
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgba(108, 60, 244, 0.85);
     box-shadow: 0 3px 5px rgba(20, 20, 50, 0.12);
     padding-top: 12px;
     padding-bottom: 12px;
