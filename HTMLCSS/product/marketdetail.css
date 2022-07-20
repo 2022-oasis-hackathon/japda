@@ -15,7 +15,7 @@ body {
     -webkit-font-smoothing: antialiased; }
   
   .btn-primary {
-    background-color: #ff8a3d;
+    background-color: #743ff7;
     border-color: #ff8a3d; }
     .btn-primary:hover, .btn-primary:active {
       background-color: #DF732D !important;
@@ -108,7 +108,7 @@ body {
       display: inline-flex;
       font-size: 20px;
       line-height: 1;
-      color: #ff8a3d;
+      color: #7443ff;
       font-weight: 700; }
       .nav-global .navbar-brand i {
         font-size: 20px; }
@@ -125,10 +125,10 @@ body {
         color: white;
         padding: 4px 16px;
         border-radius: 3px;
-        background-color: #ff8a3d;
+        background-color: #7443ff;
         border: 0; }
         .nav-global .navbar-nav .nav-item a:hover, .nav-global .navbar-nav .nav-item button:hover {
-          background-color: #DF732D; }
+          background-color: #7443ff; }
         .nav-global .navbar-nav .nav-item a:focus, .nav-global .navbar-nav .nav-item button:focus {
           outline: none; }
         .nav-global .navbar-nav .nav-item a i, .nav-global .navbar-nav .nav-item button i {
@@ -239,7 +239,7 @@ body {
     margin-top: 12px;
     font-size: 20px;
     font-weight: 700;
-    color: #ff8a3d; }
+    color: #7443ff; }
   .container-detail .list-product-information {
     list-style: none;
     margin-top: 24px;
