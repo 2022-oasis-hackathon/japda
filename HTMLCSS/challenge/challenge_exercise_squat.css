@@ -90,9 +90,12 @@ ul {
     display : inline-flex;
    }
 
+
 a{
   text-decoration: none;
 }
+
+
 
 .exercise{
   background-color:rgb(233, 237, 255);
