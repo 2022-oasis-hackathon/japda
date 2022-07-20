@@ -3,6 +3,9 @@
         <meta charset="utf-8"/>
         <title>로그인</title>
         <link rel = "stylesheet" href ="login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
         
     </head>
     <body>
@@ -39,7 +42,12 @@
 
            </div>
         </header>
-        <div class="healf">healf</div>
+        <div class="healf" style="text-align: left; font-family: 'Nunito', sans-serif;"" >
+               Healf
+               <img src="https://user-images.githubusercontent.com/54762273/179929447-49bace1a-0247-4ab1-a948-44e85ad427ed.png" width="120px" height="70px" style="margin-left: 20px;" align="middle"/>
+        
+        </div>
+
         <form method="post" action="https://www.naver.com/">
             <input type="email" class="email" style=" border:solid 0.5px;border-radius: 10px;"
                 name="uid" placeholder="이메일 주소" required="" class="required" value="" data-msg-required="이메일 주소를 입력해 주세요." aria-invalid="true">
@@ -55,12 +63,10 @@
         </form>
  
         <a href="javascript:kakaoLogin()">
-            <img class="kakaoimage" src="./카카오톡.png"
-            id="kakao login"/>
+            <img class="kakaoimage" src="./카카오톡.png" id="kakao login" style="border-radius: 6px;"/>
                 
         <a href="https://www.naver.com/">
-            <img class="naverimage" src="./네이버.png"
-            id="naver login"/>
+            <img class="naverimage" src="./네이버.png" id="naver login" style="border-radius: 6px;"/>
         </a>
 
         <p class="question">아직 회원이 아니시라면?</p>
