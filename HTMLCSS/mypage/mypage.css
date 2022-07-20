@@ -381,6 +381,17 @@ h1 a{
     border-radius: 50%;      
   }
 
+  .card__thumb_manner{
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;      
+    border-radius: 50%;      
+  }
+
+  .card__thumb_manner_text{
+    margin:auto;
+  }
+
   .card__title {
     font-size: 1em;
     margin: 0 0 .3em;
@@ -508,6 +519,6 @@ h1 a{
     }
 
     .info_card img{
-      width: 25%;
-      margin-right: 285px;
+      width: 20%;
+      margin-right: 460px;
   }
