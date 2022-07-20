@@ -446,6 +446,7 @@ h1 a{
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden;
+    background:white;
   }
   
   th {
