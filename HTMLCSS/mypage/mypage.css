@@ -49,7 +49,7 @@ h1 a{
     margin-top: 80px;
 }
 
-.info .title{
+   .top_title{
     padding-left: 10px;
     font-family : 'Baloo';
     font-size: 22px;
@@ -240,7 +240,7 @@ h1 a{
 
 .page_wrap .market_wrap .info{
     width:90%;
-    margin : 10px auto;
+    margin : 25px 5px;
     display: flex;
     border-bottom: 1px solid #dddd;
 }
@@ -506,3 +506,8 @@ h1 a{
     }
     
     }
+
+    .info_card img{
+      width: 25%;
+      margin-right: 285px;
+  }
