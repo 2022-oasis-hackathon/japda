@@ -17,6 +17,7 @@ header {
 
 /*healf*/
 h1{
+    font-family: 'Nunito', sans-serif;
     line-height:5px;
     font-size: 40px;
     float : left;
@@ -35,12 +36,14 @@ h1 a{
     margin : 0 auto;
 }
 .healf{position: absolute;
-    width: 18.3333vw;
+    width: 30.3333vw;
     height: 5.5556vw;
-    left: 46.3194vw;
+    left: 42vw;
     top: 14.4167vw;
+    display: flex;
+    align-items: center;
     
-    font-family: 'Baloo Bhai';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 4.1667vw;
@@ -73,17 +76,19 @@ h1 a{
     border: 2px solid #000000;}
 
 .login{box-sizing: border-box;
+    border-radius: 10px;
+    font-size:25px;
     position: absolute;
     width: 30.2778vw;
-    height: 5.2083vw;
+    height: 55px;
     left: 36.5972vw;
     top: 32.0556vw;
     text-align: center;
     text-decoration: none;
     font-size: 1.5278vw;
     cursor:pointer;
-    color:black;
-    background: #E5E0F2;
+    color:white;
+    background: #2f95f6;
     border: 2px solid #000000;}
 
 .emailimage{
